@@ -1,6 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .BuenosAires {
-    height: 600px;
-    background-image: url(../imagenes_integrador_front-_1_/ba1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-top: 5em;
+    height: 500px;
+    background: rgb(0, 0, 0, 0.5) url(../imagenes_integrador_front-_1_/ba1.jpg);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
