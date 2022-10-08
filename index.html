@@ -46,8 +46,10 @@
 
   <section class="BuenosAires">
     <div class="container-fluid">
-      <div class="mt-3 p-5 float-end w-50">
+      <div class="mt-0 p-0 top-0 float-end w-50"  >
         <p class="fs-3 fw-semibold text-light text-end">Conf Bs As</p>
+       </div>
+       <div class="mt-0 p-0 top-0 float-end w-50">
         <p class="fs-5 fw-light text-light text-end">
           Bs As llega por primera vez a Argentina. Un evento para compartir
           nuestra comunidad el conocimiento y experiencia de los expertos que
@@ -55,15 +57,13 @@
           evento, a otros estudiantes de Codo a Codo y los oradores de primer
           nivel que tenemos para ti. Te esperamos!
         </p>
-        <div class="d-grid gap-2 d-md-flex justify-content-end">
-          <button class="btn btn-outline-secondary me-md-2 text-light" type="button">
+    
+        <button class="btn btn-outline-secondary me-md-2 text-light" type="button">
             Quiero ser orador
           </button>
-          <button class="btn btn-success" type="button">
+        <button class="btn btn-success" type="button">
             Comprar tickets
           </button>
-        </div>
-      </div>
     </div>
   </section>
   <section>
@@ -76,8 +76,8 @@
           <!--Card Steve-->
           <img src="imagenes_integrador_front-_1_/steve.jpg" class="card-img-top" alt="Steve Jobs" />
           <div class="card-body">
-            <a class="badge bg-warning">JavaScript</a>
-            <a class="badge bg-info">React</a>
+            <span class="badge bg-warning text-decoration-none">JavaScript</span>
+            <span class="badge bg-info text-decoration-none">React</span>
             <h5 class="card-title">Steve Jobs</h5>
             <p class="card-text">
               Lorem ipsum dolor sit, Consectetur consequatur atque ex fugit,
@@ -93,8 +93,8 @@
           <!--Card Bill-->
           <img src="imagenes_integrador_front-_1_/bill.jpg" class="card-img-top" alt="Bill Gates" />
           <div class="card-body">
-            <a class="badge bg-warning">JavaScript</a>
-            <a class="badge bg-info">React</a>
+            <span class="badge bg-warning text-decoration-none">JavaScript</span>
+            <span class="badge bg-info text-decoration-none">React</span>
             <h5 class="card-title">Bill Gates</h5>
             <p class="card-text">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
@@ -110,8 +110,8 @@
           <!--Card Adalove-->
           <img src="/imagenes_integrador_front-_1_/ada.jpeg" class="card-img-top" alt="Ada Lovelace" />
           <div class="card-body">
-            <a class="badge bg-secondary">Negocios</a>
-            <a class="badge bg-danger">Startups</a>
+            <span class="badge bg-secondary text-decoration-none">Negocios</span>
+            <span class="badge bg-danger text-decoration-none">Startups</span>
             <h5 class="card-title">Ada Lovelace</h5>
             <p class="card-text">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia
@@ -149,33 +149,40 @@
       </div>
     </div>
   </section>
-  <form action="" method="post" class=" needs-validation" novalidate>
-    
-    <p class="text-center text-uppercase fs-6 p-0 m-0">Conviértete en un</p>
-    <p class="text-center text-uppercase fs-2 fw-semibold p-0">Orador</p>
-    <p class="fw-lighter fs-5 text-center">
-      Anótate como orador para dar una
-      <span style="text-decoration: underline dotted 2px black">charla ignite.</span>
-      Cuéntanos de qué quieres hablar!
-    </p>
-    <div class="d-grid d-md-block col-6 mx-auto">
-    <input class="form-control-md" type="text" id="name" placeholder="Nombre" />
-    <input class="form-control-md" type="text" id="name" placeholder="Apellido" />
-    <br />
-    <textarea class="form-control " placeholder="Sobre qué quieres hablar?" rows="4" required></textarea>
-    <p class="fw-lighter">Recuerda incluir un título para tu charla</p>
-    <button class="btn btn-success" type="submit">Enviar</button>
+<section>
+  <p class="text-center text-uppercase fs-6 p-0 m-0">Conviértete en un</p>
+  <p class="text-center text-uppercase fs-2 fw-semibold p-0">Orador</p>
+  <p class="fw-lighter fs-5 text-center">
+    Anótate como orador para dar una
+    <span style="text-decoration: underline dotted 2px black">charla ignite.</span>
+    Cuéntanos de qué quieres hablar!
+  </p>
+  <form action="" method="post" class="container col-lg-6 needs-validation" novalidate>
+    <div class="row">
+      <div class="col-6">
+        <input type="text" class="form-control" placeholder="Nombre" required/>
+      </div>
+      <div class="col-6">
+        <input type="text" class="form-control" placeholder="Apellido" />
+      </div>
     </div>
+      <br />
+      <textarea class="form-control" placeholder="Sobre qué quieres hablar?" rows="4" required></textarea>
+      <p class="fw-lighter">Recuerda incluir un título para tu charla</p>
+      <button class="btn btn-success col-12" style="background-color: rgb(39, 143, 39);"type="submit">Enviar</button>
   </form>
-  <footer>
-    <ul>
-      <li>Preguntas frecuentes</li>
-      <li>Contáctanos</li>
-      <li>Prensa</li>
-      <li>Conferencias</li>
-      <li>Términos y condiciones</li>
-      <li>Privacidad</li>
-      <li>Estudiantes</li>
+  </section>
+  <br>
+  <footer class="container-fluid sticky-sm-bottom text-center " style="background:#1e516e; ">
+    <div class="container-sm p-4">
+    <ul class="d-flex justify-content-around align-items-lg-center list-unstyled flex-wrap flex-column flex-lg-row my-0 ">
+      <li class="foot-item mx-2"><a class="foot-link text-decoration-none text-white"  href="https://github.com/leilagregorio">Preguntas frecuentes</a></li>
+      <li class="foot-item mx-2"><a class="foot-link text-decoration-none text-white" href="https://github.com/leilagregorio">Contáctanos</a></li>
+      <li class="foot-item mx-2"><a class="foot-link text-decoration-none text-white"  href="https://github.com/leilagregorio">Prensa</a></li>
+      <li class="foot-item mx-2"><a class="foot-link text-decoration-none text-white"  href="https://github.com/leilagregorio">Conferencias</a></li>
+      <li class="foot-item mx-2"><a class="foot-link text-decoration-none text-white" href="https://github.com/leilagregorio">Términos y condiciones</a></li>
+      <li class="foot-item mx-2"><a class="foot-link text-decoration-none text-white"  href="https://github.com/leilagregorio">Privacidad</a></li>
+      <li class="foot-item mx-2"><a class="foot-link text-decoration-none text-white"  href="https://github.com/leilagregorio">Estudiantes</a></li>
     </ul>
   </footer>
   <script src="/bootstrap/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
