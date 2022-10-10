@@ -11,7 +11,16 @@
     background-attachment: fixed;
     background-repeat:no-repeat;
     background-size:cover;
+    
 }
-@media only screen and (min-width: 499px){
+.text-hero{
+    width: 500px !important;
+    float: end;
 
+}
+.color-btn{
+    background-color: rgb(39, 143, 39);
+}
+footer{
+    background: #1e516e;
 }
