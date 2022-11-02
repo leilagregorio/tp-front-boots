@@ -1,10 +1,13 @@
-.titulos{
-    top:6px;
-    padding: 0;
-
+.asinestilo{
+    text-decoration: none;
+     color:white;
 }
-.titulosub{
-    margin-top:1px;
+.margen{
+    margin-top:90px;
+}
+.mtit{
+    margin-bottom:0;
+
 }
 .color-btn{
     background-color: rgb(52, 221, 52);

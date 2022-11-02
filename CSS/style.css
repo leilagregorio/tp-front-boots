@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.asinestilo{
+    text-decoration: none;
+     color:white;
+}
 .BuenosAires {
     margin-top: 5em;
     height: 500px;
